@@ -1,4 +1,4 @@
-0 CLS
+
 DIM x as integer
 DIM y as integer
 DIM w(4,12) as integer 
@@ -8,7 +8,7 @@ FOR x = 0 TO 3
                 READ w(x,y)
         NEXT y
 NEXT x
-
+0 CLS
 FOR x = 0 TO 3
         FOR y = 0 TO 12
                 IF w(x, y) = 0 THEN 
